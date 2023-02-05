@@ -56,5 +56,5 @@ app.use("/api/projects", projectRoute);
 app.use("/api/tasks", taskRoute);
 
 app.listen(port, () => {
-  console.log("Backend server is running!");
+  console.log("Backend server is running at " + port);
 });
